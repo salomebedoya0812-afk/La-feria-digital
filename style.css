@@ -65,3 +65,60 @@ transition:0.3s;
 .galeria img:hover{
 transform:scale(1.05);
 }
+
+#servicios{
+    background-image: url("Imagen/campo.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto{
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.producto img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.producto:hover{
+    transform: scale(1.05);
+}
+
+/* Colores llamativos */
+
+.papas{
+    background: #d4a017;
+}
+
+.platano{
+    background: #f4c542;
+}
+
+.tomates{
+    background: #e63946;
+}
+
+.frijol{
+    background: #6a4c93;
+}
+
+.cafe{
+    background: #6f4e37;
+}
